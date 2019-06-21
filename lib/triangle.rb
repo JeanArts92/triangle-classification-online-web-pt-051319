@@ -9,7 +9,7 @@ def initialize(side1, side2, side3)
 end 
 
 def kind
-  if 
+  if (@side1)
 
     
 end 
