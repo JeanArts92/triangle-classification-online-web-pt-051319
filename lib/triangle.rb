@@ -21,10 +21,11 @@ def kind
     else side1 == side2 || side1 == side3 || side2 == side1 || side2 == side3 || side3 == side1 || side3 == side2
       self.kind = :isoscelese
     end 
+  end 
 
     class TriangleError < StandardError
     
-end
+  end
 
 end 
   
