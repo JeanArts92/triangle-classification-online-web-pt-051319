@@ -17,7 +17,8 @@ def kind
     elsif side1 == side2 && side3 || side2 == side1 && side3 || side3 == side1 && side2
       self.kind = :equilateral
     elsif side1 != side2 && side3 || side2 != side1 && side3 || side3 != side1 && side2 
-      self.kind = :isos
+      self.kind = :scalene 
+    else 
 
     
 end 
