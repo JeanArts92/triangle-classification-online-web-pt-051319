@@ -12,6 +12,8 @@ def kind
   if (side1 * side2 * side3) == 0 || (side1 + side2) <= side3 || (side2 + side3) <= side1 || (side3 + side1) <= side2
     raise TriangleError
     elsif side1 == side2 && side1 == side3
+    self.kind = :equilateral
+    elsif
 
     
 end 
