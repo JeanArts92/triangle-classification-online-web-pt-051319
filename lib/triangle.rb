@@ -18,10 +18,10 @@ def kind
         
     elsif side1 == side2 && side1 == side3
       :equilateral
-    elsif side1 != side2 && side3 || side2 != side1 && side3 || side3 != side1 && side2 
-      :scalene 
-    else side1 == side2 || side1 == side3 || side2 == side3
+    elsif side1 == side2 || side1 == side3 || side2 == side3
       :isoscelese
+    else 
+      :scalene
     end 
   end 
 
