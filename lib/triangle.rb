@@ -9,13 +9,7 @@ def initialize(side1, side2, side3)
 end 
 
 def kind
-  if @side1 == @side2 && @side3 || @side1 >= 10 && @side2 >= 10 && @side3 >= 10 
-    :equilateral
-  elsif @side2 == @side3 || @side1 == @side3 || @side1 == @side2
-    :isosceles
-  else 
-  
-  end 
+  if 
 
     
 end 
