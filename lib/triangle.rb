@@ -10,13 +10,14 @@ end
 
 def kind
   if (side1 * side2 * side3) == 0 || (side1 + side2) <= side3 || (side2 + side3) <= side1 || (side3 + side1) <= side2
+    raise TriangleError
 
     
 end 
   
   
   
-class Triangle < StandardError
+class TriangleError < StandardError
     
 end 
   
